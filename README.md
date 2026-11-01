@@ -10,10 +10,20 @@ using YouTube's existing pause/resume handling.
 
 ## Status
 
-This is the initial community-bundle port. The original fork implementation was
-compiled, applied to the stock APK, inspected, and tested on a device. The new
-cross-bundle settings and registration integration still require a complete build,
-combined patch application, and device testing. No community release is validated yet.
+The community bundle has passed:
+
+- GitHub Actions build and 36 Java boundary checks.
+- Strict fingerprint validation with official Video quality and its settings dependencies,
+  loading the community bundle before the official bundle.
+- Normal patch application with all 111 recommended patches, loading the official bundle first.
+- Inspection of the generated DEX hooks and registers, registration call, and the preference
+  in all three layouts. The extension contains only its own three classes.
+
+Validation used Morphe Patches 2.1.0-dev.5 and Morphe Desktop 1.20.0 on the APK below.
+Full-set strict validation stops at the official Downloads fingerprint (11 matches);
+that does not affect the successful normal-mode run or the focused strict integration test.
+Android runtime/device testing of this community bundle is still pending. It is not a
+validated public release yet.
 
 The initial compatibility declaration is restricted to the inspected stock APK:
 
@@ -27,9 +37,13 @@ Other APK versions/builds have not been verified for this community port.
 
 1. Add official Morphe Patches and this bundle as separate patch sources.
 2. Enable Expert mode and experimental app versions for these sources.
-3. Select the stock APK listed above, official Morphe Settings and your usual official
-   patches, and this bundle's Pause on audio interrupt patch in the same patching run.
+3. Select the stock APK listed above, your usual official YouTube patches (which
+   bring their Settings dependency), and this bundle's Pause on audio interrupt
+   patch in the same patching run.
 4. Install, then enable the Video setting and restart YouTube.
+
+The Video screen is supplied by selected official patches such as Video quality.
+If it is absent, Morphe's add-on contract places the switch at the settings root.
 
 Use the official Morphe source, not the earlier full-bundle fork: that fork already
 contains the feature. Do not apply both implementations or patch a previously patched APK.
@@ -52,6 +66,15 @@ then run:
 ./gradlew :patches:buildAndroid --no-daemon
 python3 tests/verify_runtime.py
 ```
+
+To inspect a combined output APK, install `androguard` and run:
+
+```sh
+python3 tests/verify_apk.py combined.apk patches-1.0.0.mpp
+```
+
+The output check is pinned to this APK's verified class/register layout. It expects the
+Video screen to be provided by the selected official patches.
 
 The Java checks use Android/BooleanSetting boundary stubs. They verify helper logic
 and preference initialization, not Android behavior, the Morphe registry, DEX

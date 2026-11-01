@@ -1,8 +1,7 @@
 /*
  * Copyright 2026 o1hitman1o.
  *
- * Adapted from the audio-interrupt implementation in the existing fork:
- * https://github.com/o1hitman1o/morphe-patches/tree/510a931869e4603f278091ea81292999c3f36d35
+ * Adapted from ReVanced's Pause on audio interrupt patch (PR #6464).
  * See LICENSE and NOTICE for the terms and original attribution.
  */
 

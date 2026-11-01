@@ -63,9 +63,8 @@ completed checks, and limitations.
 
 ## Attribution and license
 
-The audio-focus hooks were adapted from the implementation in
-[o1hitman1o/morphe-patches](https://github.com/o1hitman1o/morphe-patches/tree/510a931869e4603f278091ea81292999c3f36d35),
-originally adapted from ReVanced's Pause on audio interrupt patch (PR #6464).
+The audio-focus hooks were adapted from ReVanced's Pause on audio interrupt patch
+(PR #6464).
 Original source notices remain in the relevant files.
 
 GPLv3, with the additional terms in [NOTICE](NOTICE). The template's LICENSE and NOTICE

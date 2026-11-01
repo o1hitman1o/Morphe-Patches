@@ -1,14 +1,13 @@
-group = "app.template"
+group = "app.o1hitman1o"
 
 patches {
-    // TODO: Update this section with your project details.
     about {
-        name = "UserXYZ Patches"
-        description = "Patches for apps I like"
-        source = "git@github.com:UserXYZ/morphe-patches.git"
-        author = "Awesome dev"
+        name = "Hitman Audio Pause"
+        description = "YouTube audio interruption controls, compatible with Morphe"
+        source = "https://github.com/o1hitman1o/youtube-audio-pause"
+        author = "o1hitman1o"
         contact = "na"
-        website = "na"
+        website = "https://github.com/o1hitman1o/youtube-audio-pause"
         license = "GPLv3"
     }
 }

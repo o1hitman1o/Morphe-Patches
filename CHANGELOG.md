@@ -1,3 +1,9 @@
+## [1.0.1](https://github.com/o1hitman1o/youtube-audio-pause/compare/v1.0.0...v1.0.1) (2026-11-01)
+
+### 🐛 Bug Fixes
+
+* **release:** Preserve development history when syncing releases ([a6b7b4d](https://github.com/o1hitman1o/youtube-audio-pause/commit/a6b7b4da722386680a5fd300e9c0f60871ed478a))
+
 ## 1.0.0 (2026-11-01)
 
 ### ✨ New Features

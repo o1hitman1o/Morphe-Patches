@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-11-01T22:42:54",
-  "description": "## 1.0.0 (2026-11-01)\n\n### ✨ New Features\n\n* Add standalone audio-pause community patch ([5a55568](https://github.com/o1hitman1o/youtube-audio-pause/commit/5a55568df4b09639f8f63d354bd3a2a978c371fc))\n* Publish audio-pause community patch ([a3f86a8](https://github.com/o1hitman1o/youtube-audio-pause/commit/a3f86a890f2a2deebfeffafbd041238ea2392ec2))\n\n### 🐛 Bug Fixes\n\n* Target the serialized Video settings screen key ([c506141](https://github.com/o1hitman1o/youtube-audio-pause/commit/c506141f5d9e6e3fb1bf5436330a444a3d968f3a))",
-  "download_url": "https://github.com/o1hitman1o/youtube-audio-pause/releases/download/v1.0.0/patches-1.0.0.mpp",
+  "created_at": "2026-11-01T22:46:22",
+  "description": "## [1.0.1](https://github.com/o1hitman1o/youtube-audio-pause/compare/v1.0.0...v1.0.1) (2026-11-01)\n\n### 🐛 Bug Fixes\n\n* **release:** Preserve development history when syncing releases ([a6b7b4d](https://github.com/o1hitman1o/youtube-audio-pause/commit/a6b7b4da722386680a5fd300e9c0f60871ed478a))",
+  "download_url": "https://github.com/o1hitman1o/youtube-audio-pause/releases/download/v1.0.1/patches-1.0.1.mpp",
   "signature_download_url": "",
-  "version": "1.0.0"
+  "version": "1.0.1"
 }

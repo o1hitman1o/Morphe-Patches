@@ -34,6 +34,9 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Check audio-focus helper
+        run: python3 tests/verify_runtime.py
+
       # Semantic release runs its own Gradle build command.
       # Only dev and main branch will generate a release as specified by .releaserc
       - name: Release
@@ -47,7 +50,7 @@ jobs:
         if: steps.release.outputs.new_release_published == 'true'
         uses: actions/attest-build-provenance@v4
         with:
-          subject-name: 'Morphe Patches ${{ steps.release.outputs.new_release_git_tag }}'
+          subject-name: 'Hitman Audio Pause ${{ steps.release.outputs.new_release_git_tag }}'
           subject-path: patches/build/libs/patches-*.mpp
 
       # Always verify compilation when semantic-release did not publish a release.
@@ -56,4 +59,12 @@ jobs:
         if: steps.release.outputs.new_release_published != 'true'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: ./gradlew :patches:buildAndroid clean --no-daemon
+        run: ./gradlew :patches:buildAndroid --no-daemon
+
+      - name: Upload test bundle
+        if: steps.release.outputs.new_release_published != 'true'
+        uses: actions/upload-artifact@v7
+        with:
+          name: hitman-audio-pause-test
+          path: patches/build/libs/patches-*.mpp
+          if-no-files-found: error

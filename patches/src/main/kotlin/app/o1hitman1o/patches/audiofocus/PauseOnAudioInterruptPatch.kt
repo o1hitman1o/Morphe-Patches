@@ -40,7 +40,7 @@ private val audioInterruptPreferencesPatch = resourcePatch {
                 throw PatchException("Invalid Morphe add-on preference declaration")
             }
             val screen = document.createElement("screen").apply {
-                setAttribute("key", "morphe_settings_screen_12_video")
+                setAttribute("key", "morphe_settings_screen_12_video_sort_by_key")
             }
             val preference = document.createElement(PREFERENCE_CLASS).apply {
                 setAttributeNS(ANDROID_NAMESPACE, "android:key", "morphe_pause_on_audio_interrupt")

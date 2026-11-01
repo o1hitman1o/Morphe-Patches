@@ -32,14 +32,6 @@ select patches from both sources in the same patching run.
 If selected official patches do not provide the Video screen, the switch appears
 at the Morphe settings root.
 
-### If you used the earlier source
-
-This repository was previously named `youtube-audio-pause`, and the bundle was named
-**Hitman Audio Pause**. Use the repository URL above for new installations. If you
-imported a local test bundle, add the remote source to receive future updates.
-Keep only one copy of this community source enabled when patching; do not combine
-it with the earlier full-bundle fork that already included the audio-pause feature.
-
 ## Downloads and updates
 
 [Latest release](https://github.com/o1hitman1o/Morphe-Patches/releases/latest)

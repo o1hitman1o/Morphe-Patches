@@ -2,12 +2,12 @@ group = "app.o1hitman1o"
 
 patches {
     about {
-        name = "Hitman Audio Pause"
+        name = "o1hitman1o's Morphe Patches"
         description = "YouTube audio interruption controls, compatible with Morphe"
-        source = "https://github.com/o1hitman1o/youtube-audio-pause"
+        source = "https://github.com/o1hitman1o/Morphe-Patches"
         author = "o1hitman1o"
         contact = "na"
-        website = "https://github.com/o1hitman1o/youtube-audio-pause"
+        website = "https://github.com/o1hitman1o/Morphe-Patches"
         license = "GPLv3"
     }
 }

@@ -1,4 +1,4 @@
-# Hitman Audio Pause
+# o1hitman1o's Morphe Patches
 
 A community add-on that adds **Pause on audio interrupt** to YouTube patched with Morphe.
 When enabled, playback pauses during temporary audio interruptions instead of lowering
@@ -6,30 +6,43 @@ volume, using YouTube's existing audio-focus handling.
 
 Maintained by o1hitman1o. This project is not maintained or endorsed by Morphe.
 
-[![Add to Morphe](.github/assets/add-to-morphe.svg)](https://morphe.software/add-source?github=o1hitman1o/youtube-audio-pause)
+[![Add to Morphe](.github/assets/add-to-morphe.svg)](https://morphe.software/add-source?github=o1hitman1o/Morphe-Patches)
 
 ## Install
 
-1. Open the **Add to Morphe** link on your Android device and add this patch source.
-   You can also add `o1hitman1o/youtube-audio-pause` as a GitHub source in Morphe Manager.
-2. Keep the official **Morphe Patches** source enabled. Enable **Expert mode** and
-   experimental app versions for both sources.
-3. Select a stock **YouTube 21.44.528** APK. In the same patching run, select your usual
-   official patches and this source's **Pause on audio interrupt** patch. Include
-   **Video quality** to provide the Video settings screen.
-4. Install the patched app. Open **Settings → Morphe → Video → Pause on audio interrupt**,
-   enable it, and restart YouTube. The setting is off by default.
+**Expert mode is required.** This community source adds to the official Morphe patches;
+select patches from both sources in the same patching run.
 
-Use the official Morphe source alongside this add-on. The earlier full-bundle fork
-already includes this feature; applying both implementations is unsupported. Start
-with a stock APK rather than an already patched app.
+1. Install Morphe Manager and enable **Expert mode** in its settings.
+2. Open the **Add to Morphe** button above on your Android device and add
+   **o1hitman1o's Morphe Patches**. Alternatively, add this GitHub repository as a
+   remote patch source: `https://github.com/o1hitman1o/Morphe-Patches`.
+3. Keep the official **Morphe Patches** source enabled alongside this source. Enable
+   **experimental app versions** for both sources to select the verified YouTube target.
+4. Start with a stock **YouTube 21.44.528** APK (version code **1561310186**), on
+   **Android 10 or newer**. Do not use an already patched APK.
+5. Select your usual official YouTube patches and this source's **Pause on audio interrupt**
+   patch in the same run. Include the official **Video quality** patch to provide the
+   Video settings screen and its Settings dependency.
+6. Complete patching and install the resulting app.
+7. In YouTube, open **Settings → Morphe → Video → Pause on audio interrupt**,
+   enable it, and **restart YouTube**. The setting is off by default. Restart again
+   after changing the setting.
 
 If selected official patches do not provide the Video screen, the switch appears
 at the Morphe settings root.
 
+### If you used the earlier source
+
+This repository was previously named `youtube-audio-pause`, and the bundle was named
+**Hitman Audio Pause**. Use the repository URL above for new installations. If you
+imported a local test bundle, add the remote source to receive future updates.
+Keep only one copy of this community source enabled when patching; do not combine
+it with the earlier full-bundle fork that already included the audio-pause feature.
+
 ## Downloads and updates
 
-[Latest release](https://github.com/o1hitman1o/youtube-audio-pause/releases/latest)
+[Latest release](https://github.com/o1hitman1o/Morphe-Patches/releases/latest)
 contains the `.mpp` bundle for manual import. Adding the GitHub source lets Morphe
 Manager check for future bundle updates.
 
@@ -41,7 +54,7 @@ completed checks, and limitations.
 ## Patches
 
 <!-- PATCHES_START EXPANDED -->
-> **[v1.0.1](https://github.com/o1hitman1o/youtube-audio-pause/releases/tag/v1.0.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;1 patches total
+> **[v1.0.1](https://github.com/o1hitman1o/Morphe-Patches/releases/tag/v1.0.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;1 patches total
 <details open>
 <summary>📦 YouTube&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
 <br>

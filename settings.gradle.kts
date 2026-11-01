@@ -1,4 +1,4 @@
-rootProject.name = "youtube-audio-pause"
+rootProject.name = "Morphe-Patches"
 
 pluginManagement {
     repositories {

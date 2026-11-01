@@ -1,3 +1,9 @@
+## [1.0.2](https://github.com/o1hitman1o/Morphe-Patches/compare/v1.0.1...v1.0.2) (2026-11-01)
+
+### 🐛 Bug Fixes
+
+* Update community source branding and installation instructions ([4cef0fa](https://github.com/o1hitman1o/Morphe-Patches/commit/4cef0fa5555c166bcde0b44c7542346e080d9b38))
+
 ## [1.0.1](https://github.com/o1hitman1o/youtube-audio-pause/compare/v1.0.0...v1.0.1) (2026-11-01)
 
 ### 🐛 Bug Fixes

@@ -1,0 +1,10 @@
+## 1.0.0 (2026-11-01)
+
+### ✨ New Features
+
+* Add standalone audio-pause community patch ([5a55568](https://github.com/o1hitman1o/youtube-audio-pause/commit/5a55568df4b09639f8f63d354bd3a2a978c371fc))
+* Publish audio-pause community patch ([a3f86a8](https://github.com/o1hitman1o/youtube-audio-pause/commit/a3f86a890f2a2deebfeffafbd041238ea2392ec2))
+
+### 🐛 Bug Fixes
+
+* Target the serialized Video settings screen key ([c506141](https://github.com/o1hitman1o/youtube-audio-pause/commit/c506141f5d9e6e3fb1bf5436330a444a3d968f3a))

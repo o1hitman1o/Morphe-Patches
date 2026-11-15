@@ -1,6 +1,6 @@
 # Validation
 
-Validation used Morphe Patches 2.1.0-dev.5 and Morphe Desktop 1.20.0 with the stock APK below.
+Validation used Morphe Patches 2.1.0-dev.5 and Morphe Desktop 1.20.0 with the stock APK below. The additional YouTube 21.45.82 target was reported working by the maintainer; the automated validation details below apply to 21.44.528 only.
 
 - Package: `com.google.android.youtube`
 - Version: `21.44.528`, version code `1561310186`, Android 10+
@@ -18,7 +18,7 @@ Passed checks:
 
 Full-set strict validation stops at the official Downloads fingerprint (11 matches).
 The focused strict integration and normal full-set application passed. This does not
-establish compatibility with other APK versions or device configurations.
+establish automated validation for 21.45.82 or other device configurations.
 
 The Java checks use Android/BooleanSetting boundary stubs. They verify helper logic
 and preference initialization, not Android behavior, the Morphe registry, DEX

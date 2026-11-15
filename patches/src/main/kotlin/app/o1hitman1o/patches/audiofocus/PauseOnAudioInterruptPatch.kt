@@ -65,8 +65,8 @@ val pauseOnAudioInterruptPatch = bytecodePatch(
             packageName = "com.google.android.youtube",
             apkFileType = ApkFileType.APK_REQUIRED,
             targets = listOf(
-                AppTarget("21.44.528", 1561310186, isExperimental = true, minSdk = 29),
-                AppTarget("21.45.82", 1561310996, isExperimental = true, minSdk = 29)
+                AppTarget("21.45.82", 1561310996, isExperimental = true, minSdk = 29),
+                AppTarget("21.44.528", 1561310186, isExperimental = true, minSdk = 29)
             )
         )
     )

@@ -18,8 +18,8 @@ select patches from both sources in the same patching run.
    **o1hitman1o's Morphe Patches**. Alternatively, add this GitHub repository as a
    remote patch source: `https://github.com/o1hitman1o/Morphe-Patches`.
 3. Keep the official **Morphe Patches** source enabled alongside this source. Enable
-   **experimental app versions** for both sources to select the verified YouTube target.
-4. Start with a stock **YouTube 21.44.528** APK (version code **1561310186**), on
+   **experimental app versions** for both sources to select a supported YouTube target.
+4. Start with a stock **YouTube 21.44.528** (1561310186) or **21.45.82** (1561310996) APK, on
    **Android 10 or newer**. Do not use an already patched APK.
 5. Select your usual official YouTube patches and this source's **Pause on audio interrupt**
    patch in the same run. Include the official **Video quality** patch to provide the
@@ -38,10 +38,10 @@ at the Morphe settings root.
 contains the `.mpp` bundle for manual import. Adding the GitHub source lets Morphe
 Manager check for future bundle updates.
 
-Support is limited to the verified **21.44.528** APK, version code **1561310186**,
-Android 10 or newer. The target is marked experimental. See
-[validation and development notes](docs/VALIDATION.md) for the exact APK hash,
-completed checks, and limitations.
+Supported targets are **21.44.528** (1561310186) and **21.45.82** (1561310996),
+on Android 10 or newer. Both targets are marked experimental. See
+[validation and development notes](docs/VALIDATION.md) for validation details
+and limitations.
 
 ## Patches
 
@@ -55,8 +55,8 @@ completed checks, and limitations.
 
 **🎯 Supported versions:**
 
-| 🧪&nbsp;21.44.528 |
-| :---: |
+| 🧪&nbsp;21.44.528 | 🧪&nbsp;21.45.82 |
+| :---: | :---: |
 
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
 |----------|----------------|-----------|

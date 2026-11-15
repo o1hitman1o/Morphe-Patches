@@ -1,6 +1,15 @@
 # Validation
 
-Validation used Morphe Patches 2.1.0-dev.5 and Morphe Desktop 1.20.0 with the stock APK below. The additional YouTube 21.45.82 target was reported working by the maintainer; the automated validation details below apply to 21.44.528 only.
+## Latest maintainer-tested YouTube version
+
+- Package: `com.google.android.youtube`
+- Version: `21.45.82`, version code `1561310996`, Android 10+
+- Status: Successfully patched and confirmed working by the maintainer with Pause on audio interrupt.
+- Classification: Experimental in Morphe metadata; no automated validation or APK SHA-256 recorded for this target.
+
+## Previous automated validation: YouTube 21.44.528
+
+Validation used Morphe Patches 2.1.0-dev.5 and Morphe Desktop 1.20.0 with this stock APK.
 
 - Package: `com.google.android.youtube`
 - Version: `21.44.528`, version code `1561310186`, Android 10+

@@ -1,3 +1,9 @@
+## [1.1.0](https://github.com/o1hitman1o/Morphe-Patches/compare/v1.0.2...v1.1.0) (2026-11-15)
+
+### ✨ New Features
+
+* support YouTube 21.45.82 audio interrupt patch ([181a62a](https://github.com/o1hitman1o/Morphe-Patches/commit/181a62a579c516b1fff3edd89a0424e18f350d6a))
+
 ## [1.0.2](https://github.com/o1hitman1o/Morphe-Patches/compare/v1.0.1...v1.0.2) (2026-11-01)
 
 ### 🐛 Bug Fixes
